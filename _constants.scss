@@ -1,0 +1,13 @@
+$primaryFontColor: #090b08;
+$primaryBackgroundColor: #ecffe9;
+$primaryBorderColor: #000;
+$primaryShadowColor: rgba(0, 0, 0, 0.75);
+$secondaryFontColor: #fff;
+$secondaryBackgroundColor: #97d279;
+$primaryPadding: 20px;
+
+@mixin textStyle {
+  max-width: 700px;
+  text-align: center;
+  padding: $primaryPadding;
+}
